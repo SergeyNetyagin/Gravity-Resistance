@@ -1,0 +1,5 @@
+RT-Voice Integration
+
+Import the RT-Voice Integration asset to add RT-Voice text-to-speech integration into NPC Chat. This asset requires RT-Voice.
+
+This integration will add an option to use Text-to-Speech on page dialogue in the NPC Chat inspector. Toggle this On to have RT-Voice create an audio file at runtime when the page is triggered by NPC Chat.

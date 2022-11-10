@@ -1,0 +1,42 @@
+NPC Chat Version 1.77
+For questions, comments or suggestions contact turnthegameon@gmail.com
+
+
+Video Tutorial Playlist:
+ https://www.youtube.com/playlist?list=PLy0oHZ9DiHn96gfMaEsSajVHSQhW9pXjV
+Website Tutorial Playlist (additional NPC Chat information will be added over time):
+ http://www.turnthegameon.com/#!npcchat/dnnh6
+
+
+
+NPC Chat inspector properties are defined in the inspector for easy reference, click the "Show Hints" button to toggle the definition text.
+
+Select "Right Click> UI> NPC Chat" to add an NPC Chat object or NPC Chat Box to your scene.
+
+1.  Attach the NPC Chat object to another object or position it in your scene.
+
+2.  Assign Player Transform in NPC Chat inspector.
+
+3.  Assign a Chat Box on each page of dialogue you create.
+
+4.  Adjust inspector settings as needed.
+
+Key Notes:
+
+-Player:			A reference to the player object in the scene, used for distance check. NOTE: This object should also have a tag set to Player.
+
+-Chat Manager:			Scriptable Object used by NPC Chat for managing multiple conversations.
+
+-NPC Number:			Used by the chat manager scriptable object to set the curent conversation for the NPC Chat object.
+
+-Conversations:			Set the total number of conversations this NPC will have, press update to overwrite your current settings. Use the chat manager NPC Conversation Indexes array with the NPC Number to manage conversations.
+
+-Chat Pages:			Each conversation can have any number of pages, buttons should only be used on the last page of a conversation.
+
+//Chat Manager NOTES: when you use a button you need an event to call the CloseChat() method to end the conversation.
+//						CloseChat()			Ends the current conversation on a page a button is used.
+
+//Chat Manager NOTES: you can call the following methothds for structured dialogue
+//						ChangeTarget(int)	Set the Current Dialogue array index for NewDialogue()
+//						NewDialogue(int)	set Current Dialogue used for conversation number on all NPC objects with NPC Number equal to Current Dialogue.
+//	

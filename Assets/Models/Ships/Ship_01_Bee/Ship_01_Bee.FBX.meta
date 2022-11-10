@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 5dc2f45b9adf1104fa4e47d926abfc54
+timeCreated: 1473130211
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cylinder001
+    100002: Object005
+    100004: Object006
+    100006: //RootNode
+    100008: base
+    100010: center
+    100012: engine
+    100014: lift
+    100016: Object008
+    100018: Object009
+    100020: Object010
+    100022: Object011
+    100024: Object012
+    100026: Object013
+    100028: top
+    100030: Object014
+    100032: Object015
+    100034: Object016
+    100036: Object017
+    100038: Object018
+    100040: Object019
+    100042: Object020
+    100044: Object021
+    100046: Object022
+    100048: Object023
+    100050: Object024
+    100052: Object025
+    100054: Object026
+    100056: Object027
+    100058: Object028
+    100060: Object029
+    100062: Object030
+    100064: Object031
+    400000: Cylinder001
+    400002: Object005
+    400004: Object006
+    400006: //RootNode
+    400008: base
+    400010: center
+    400012: engine
+    400014: lift
+    400016: Object008
+    400018: Object009
+    400020: Object010
+    400022: Object011
+    400024: Object012
+    400026: Object013
+    400028: top
+    400030: Object014
+    400032: Object015
+    400034: Object016
+    400036: Object017
+    400038: Object018
+    400040: Object019
+    400042: Object020
+    400044: Object021
+    400046: Object022
+    400048: Object023
+    400050: Object024
+    400052: Object025
+    400054: Object026
+    400056: Object027
+    400058: Object028
+    400060: Object029
+    400062: Object030
+    400064: Object031
+    2300000: Cylinder001
+    2300002: Object005
+    2300004: Object006
+    2300006: base
+    2300008: center
+    2300010: engine
+    2300012: lift
+    2300014: Object008
+    2300016: Object009
+    2300018: Object010
+    2300020: Object011
+    2300022: Object012
+    2300024: Object013
+    2300026: top
+    2300028: Object014
+    2300030: Object015
+    2300032: Object016
+    2300034: Object017
+    2300036: Object018
+    2300038: Object019
+    2300040: Object020
+    2300042: Object021
+    2300044: Object022
+    2300046: Object023
+    2300048: Object024
+    2300050: Object025
+    2300052: Object026
+    2300054: Object027
+    2300056: Object028
+    2300058: Object029
+    2300060: Object030
+    2300062: Object031
+    3300000: Cylinder001
+    3300002: Object005
+    3300004: Object006
+    3300006: base
+    3300008: center
+    3300010: engine
+    3300012: lift
+    3300014: Object008
+    3300016: Object009
+    3300018: Object010
+    3300020: Object011
+    3300022: Object012
+    3300024: Object013
+    3300026: top
+    3300028: Object014
+    3300030: Object015
+    3300032: Object016
+    3300034: Object017
+    3300036: Object018
+    3300038: Object019
+    3300040: Object020
+    3300042: Object021
+    3300044: Object022
+    3300046: Object023
+    3300048: Object024
+    3300050: Object025
+    3300052: Object026
+    3300054: Object027
+    3300056: Object028
+    3300058: Object029
+    3300060: Object030
+    3300062: Object031
+    4300000: Cylinder001
+    4300002: Object005
+    4300004: Object006
+    4300006: base
+    4300008: lift
+    4300010: top
+    4300012: center
+    4300014: Object008
+    4300016: Object009
+    4300018: Object010
+    4300020: Object011
+    4300022: Object012
+    4300024: engine
+    4300026: Object013
+    4300028: Object015
+    4300030: Object016
+    4300032: Object017
+    4300034: Object018
+    4300036: Object014
+    4300038: Object019
+    4300040: Object021
+    4300042: Object022
+    4300044: Object023
+    4300046: Object024
+    4300048: Object020
+    4300050: Object025
+    4300052: Object027
+    4300054: Object028
+    4300056: Object029
+    4300058: Object030
+    4300060: Object026
+    4300062: Object031
+    7400000: Take_off
+    7400002: Idle
+    7400004: Landing
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take_off
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: center
+        weight: 1
+      - path: center/engine
+        weight: 1
+      - path: center/lift
+        weight: 1
+      - path: center/lift/base
+        weight: 1
+      - path: center/lift/base/top
+        weight: 1
+      - path: center/Object013
+        weight: 1
+      - path: center/Object013/Object009
+        weight: 1
+      - path: center/Object013/Object009/Object012
+        weight: 1
+      - path: center/Object013/Object009/Object012/Object011
+        weight: 1
+      - path: center/Object013/Object009/Object012/Object011/Object008
+        weight: 1
+      - path: center/Object013/Object009/Object012/Object011/Object008/Object010
+        weight: 1
+      - path: center/Object015
+        weight: 1
+      - path: center/Object015/Object016
+        weight: 1
+      - path: center/Object015/Object016/Object017
+        weight: 1
+      - path: center/Object015/Object016/Object017/Object018
+        weight: 1
+      - path: center/Object015/Object016/Object017/Object018/Object014
+        weight: 1
+      - path: center/Object015/Object016/Object017/Object018/Object014/Object019
+        weight: 1
+      - path: center/Object021
+        weight: 1
+      - path: center/Object021/Object022
+        weight: 1
+      - path: center/Object021/Object022/Object023
+        weight: 1
+      - path: center/Object021/Object022/Object023/Object024
+        weight: 1
+      - path: center/Object021/Object022/Object023/Object024/Object020
+        weight: 1
+      - path: center/Object021/Object022/Object023/Object024/Object020/Object025
+        weight: 1
+      - path: center/Object027
+        weight: 1
+      - path: center/Object027/Object028
+        weight: 1
+      - path: center/Object027/Object028/Object029
+        weight: 1
+      - path: center/Object027/Object028/Object029/Object030
+        weight: 1
+      - path: center/Object027/Object028/Object029/Object030/Object026
+        weight: 1
+      - path: center/Object027/Object028/Object029/Object030/Object026/Object031
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: center
+        weight: 1
+      - path: center/engine
+        weight: 1
+      - path: center/lift
+        weight: 1
+      - path: center/lift/base
+        weight: 1
+      - path: center/lift/base/top
+        weight: 1
+      - path: center/Object013
+        weight: 1
+      - path: center/Object013/Object009
+        weight: 1
+      - path: center/Object013/Object009/Object012
+        weight: 1
+      - path: center/Object013/Object009/Object012/Object011
+        weight: 1
+      - path: center/Object013/Object009/Object012/Object011/Object008
+        weight: 1
+      - path: center/Object013/Object009/Object012/Object011/Object008/Object010
+        weight: 1
+      - path: center/Object015
+        weight: 1
+      - path: center/Object015/Object016
+        weight: 1
+      - path: center/Object015/Object016/Object017
+        weight: 1
+      - path: center/Object015/Object016/Object017/Object018
+        weight: 1
+      - path: center/Object015/Object016/Object017/Object018/Object014
+        weight: 1
+      - path: center/Object015/Object016/Object017/Object018/Object014/Object019
+        weight: 1
+      - path: center/Object021
+        weight: 1
+      - path: center/Object021/Object022
+        weight: 1
+      - path: center/Object021/Object022/Object023
+        weight: 1
+      - path: center/Object021/Object022/Object023/Object024
+        weight: 1
+      - path: center/Object021/Object022/Object023/Object024/Object020
+        weight: 1
+      - path: center/Object021/Object022/Object023/Object024/Object020/Object025
+        weight: 1
+      - path: center/Object027
+        weight: 1
+      - path: center/Object027/Object028
+        weight: 1
+      - path: center/Object027/Object028/Object029
+        weight: 1
+      - path: center/Object027/Object028/Object029/Object030
+        weight: 1
+      - path: center/Object027/Object028/Object029/Object030/Object026
+        weight: 1
+      - path: center/Object027/Object028/Object029/Object030/Object026/Object031
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Landing
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: center
+        weight: 1
+      - path: center/engine
+        weight: 1
+      - path: center/lift
+        weight: 1
+      - path: center/lift/base
+        weight: 1
+      - path: center/lift/base/top
+        weight: 1
+      - path: center/Object013
+        weight: 1
+      - path: center/Object013/Object009
+        weight: 1
+      - path: center/Object013/Object009/Object012
+        weight: 1
+      - path: center/Object013/Object009/Object012/Object011
+        weight: 1
+      - path: center/Object013/Object009/Object012/Object011/Object008
+        weight: 1
+      - path: center/Object013/Object009/Object012/Object011/Object008/Object010
+        weight: 1
+      - path: center/Object015
+        weight: 1
+      - path: center/Object015/Object016
+        weight: 1
+      - path: center/Object015/Object016/Object017
+        weight: 1
+      - path: center/Object015/Object016/Object017/Object018
+        weight: 1
+      - path: center/Object015/Object016/Object017/Object018/Object014
+        weight: 1
+      - path: center/Object015/Object016/Object017/Object018/Object014/Object019
+        weight: 1
+      - path: center/Object021
+        weight: 1
+      - path: center/Object021/Object022
+        weight: 1
+      - path: center/Object021/Object022/Object023
+        weight: 1
+      - path: center/Object021/Object022/Object023/Object024
+        weight: 1
+      - path: center/Object021/Object022/Object023/Object024/Object020
+        weight: 1
+      - path: center/Object021/Object022/Object023/Object024/Object020/Object025
+        weight: 1
+      - path: center/Object027
+        weight: 1
+      - path: center/Object027/Object028
+        weight: 1
+      - path: center/Object027/Object028/Object029
+        weight: 1
+      - path: center/Object027/Object028/Object029/Object030
+        weight: 1
+      - path: center/Object027/Object028/Object029/Object030/Object026
+        weight: 1
+      - path: center/Object027/Object028/Object029/Object030/Object026/Object031
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

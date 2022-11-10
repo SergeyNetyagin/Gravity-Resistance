@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ed4469272a7ca734fb16fb408d941aed
+timeCreated: 1464414221
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - _baseShader: {fileID: 4800000, guid: 8ad2ef606386f4524aac754ad536a877, type: 3}
+  - _atmosphereShader: {instanceID: 0}
+  - _baseMap: {fileID: 8900000, guid: 551d601887e99d94695b070462020f8a, type: 3}
+  - _normalMap: {fileID: 2800000, guid: eb8a3c83e5c564196a87beaba71facd2, type: 3}
+  - _glossMap: {instanceID: 0}
+  - _cloudMap: {instanceID: 0}
+  - _nightLightMap: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

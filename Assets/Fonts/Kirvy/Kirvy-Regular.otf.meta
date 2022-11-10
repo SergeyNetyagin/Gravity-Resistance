@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b0fad7694f79f7c46a75a376ddbda4d0
+timeCreated: 1470562824
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Kirvy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 564ed77d9e63c2243b801b5ee68e3529, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

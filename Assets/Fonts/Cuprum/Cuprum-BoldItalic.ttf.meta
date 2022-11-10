@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 880968082985a5c419e54ff9864d59b2
+timeCreated: 1470562821
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cuprum
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0aecf2326481ebd4f81f1a7282f7968a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
