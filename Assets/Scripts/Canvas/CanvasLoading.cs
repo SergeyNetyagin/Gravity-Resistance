@@ -104,6 +104,9 @@ public class CanvasLoading : MonoBehaviour {
     // Event: loading is complete ##############################################################################################################################################
     public void EventAnimationLoadingIsComplete() {
 
-        async_operation_loading.allowSceneActivation = true;
+        if( async_operation_loading != null ) {
+        
+            async_operation_loading.allowSceneActivation = true;
+        }
     }
 }

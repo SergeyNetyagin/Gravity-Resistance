@@ -2,6 +2,10 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+/Assets/Packages/
+/Assets/_TerrainAutoUpgrade/
+EthanWhite.mat
+/Assets/Packages/Creepy Cat Effects/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -12,6 +16,8 @@
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
+
+_Terrain*.*
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*

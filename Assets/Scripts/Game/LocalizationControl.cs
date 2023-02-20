@@ -42,10 +42,14 @@ public class LocalizationControl : MonoBehaviour {
     public AudioClip GetAudioClip( string audio_clip_name ) { return language_manager.GetAudioClip( audio_clip_name ); }
     
     // Initialization the language system ######################################################################################################################################
-    void Awake() {
+    private void Awake() {
 
 		language_manager = LanguageManager.Instance;
-		if( language_manager.NumberOfSupportedLanguages == 0 ) return;
+		
+        if( language_manager.NumberOfSupportedLanguages == 0 ) {
+         
+            return;
+        }
 
         if( Game.Localization == null ) Game.Localization = this;
         		
@@ -59,7 +63,7 @@ public class LocalizationControl : MonoBehaviour {
 	}
 
     // Returns a specified CultureInfo #########################################################################################################################################
-    SmartCultureInfo GetDeviceCulture( Language language ) {
+    private SmartCultureInfo GetDeviceCulture( Language language ) {
 
         SmartCultureInfo culture_info = null;
 
